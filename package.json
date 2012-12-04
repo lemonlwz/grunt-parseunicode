@@ -1,7 +1,7 @@
 {
   "name": "grunt-parseunicode",
   "description": "parse js css to unicode",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "homepage": "https://github.com/lemonlwz/grunt-parseunicode",
   "author": {
     "name": "lemonlwz",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/lemonroot/parseunicode.git"
+    "url": "git@github.com:lemonlwz/grunt-parseunicode.git"
   },
   "bugs": {
     "url": "https://github.com/lemonlwz/grunt-parseunicode/issues"
