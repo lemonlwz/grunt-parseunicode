@@ -19,10 +19,10 @@ Configure Example:
 ```javascript
   parseunicode: {
     dist: {
-      src: ['test/**/*min.js'],
+      src: ['test/**/*min.js'], //the path to the file
       options: {
-        charset: 'utf8',
-        type: 'js'
+        charset: 'utf8', //default utf8
+        type: 'js' //default js
       }
     }
   }

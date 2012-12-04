@@ -52,7 +52,7 @@ module.exports = function(grunt) {
 
     var str, buffer, charset, type;
 
-    charset = this.data.options.charset;
+    charset = this.data.options.charset || 'utf8';
     type = this.data.options.type !== 'js' ? false : true ;
 
     grunt.file.expandFiles(this.file.src).forEach(function(filepath) {
