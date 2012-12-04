@@ -15,7 +15,18 @@ grunt.loadNpmTasks('grunt-parseunicode');
 [getting_started]: https://github.com/gruntjs/grunt/blob/master/docs/getting_started.md
 
 ## Documentation
-_(Coming soon)_
+Configure Example:
+```javascript
+  parseunicode: {
+    dist: {
+      src: ['test/**/*min.js'],
+      options: {
+        charset: 'utf8',
+        type: 'js'
+      }
+    }
+  }
+```
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt][grunt].
@@ -24,5 +35,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 _(Nothing yet)_
 
 ## License
-Copyright (c) 2012 lemonlwz  
+Copyright (c) 2012 [lemonlwz][http://www.coolicer.com/] 
 Licensed under the MIT license.
