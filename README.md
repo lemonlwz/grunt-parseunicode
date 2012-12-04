@@ -35,5 +35,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 _(Nothing yet)_
 
 ## License
-Copyright (c) 2012 [lemonlwz]: http://www.coolicer.com/
+Copyright (c) 2012 [lemonlwz](http://www.coolicer.com/)
 Licensed under the MIT license.
