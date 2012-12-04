@@ -52,6 +52,7 @@ module.exports = function(grunt) {
 
     var str, buffer, charset, type;
 
+    this.data.options = this.data.options || {};
     charset = this.data.options.charset || 'utf8';
     type = this.data.options.type !== 'js' ? false : true ;
 
