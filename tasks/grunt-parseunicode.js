@@ -58,6 +58,7 @@ module.exports = function(grunt) {
 
     grunt.file.expandFiles(this.file.src).forEach(function(filepath) {
 
+	  console.log(filepath);
       str = iconv.decode(fs.readFileSync(filepath, ''), charset);
       buffer = iconv.encode(escapeIt(str, type), charset);
       fs.writeFileSync(filepath, buffer, charset);

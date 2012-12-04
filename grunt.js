@@ -33,10 +33,17 @@ module.exports = function(grunt) {
       }
     },
     parseunicode: {
-      dist: {
-        src: ['test/**/*min.js'],
+      dist_utf8: {
+        src: ['test/**/*utf8.min.js'],
         options: {
           charset: 'utf8',
+          type: 'js'
+        }
+      },
+	  dist_gbk: {
+        src: ['test/**/*gbk.min.js'],
+        options: {
+          charset: 'gbk',
           type: 'js'
         }
       }

@@ -1,7 +1,7 @@
 {
   "name": "grunt-parseunicode",
   "description": "parse js css to unicode",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "homepage": "https://github.com/lemonlwz/grunt-parseunicode",
   "author": {
     "name": "lemonlwz",
