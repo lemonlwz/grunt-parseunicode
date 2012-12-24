@@ -46,7 +46,7 @@ module.exports = function(grunt) {
     }
 
     return ret;
-  }
+  };
 
   grunt.registerMultiTask('parseunicode', 'parse unicode', function() {
 
@@ -58,22 +58,12 @@ module.exports = function(grunt) {
 
     grunt.file.expandFiles(this.file.src).forEach(function(filepath) {
 
-	  console.log(filepath);
+    console.log(filepath);
       str = iconv.decode(fs.readFileSync(filepath, ''), charset);
       buffer = iconv.encode(escapeIt(str, type), charset);
       fs.writeFileSync(filepath, buffer, charset);
-
     });
 
-    grunt.log.write(grunt.helper('parseunicode'));
-  });
-
-  // ==========================================================================
-  // HELPERS
-  // ==========================================================================
-
-  grunt.registerHelper('parseunicode', function() {
-    return 'parseunicode!!!';
   });
 
 };

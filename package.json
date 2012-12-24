@@ -1,7 +1,7 @@
 {
   "name": "grunt-parseunicode",
   "description": "parse js css to unicode",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "homepage": "https://github.com/lemonlwz/grunt-parseunicode",
   "author": {
     "name": "lemonlwz",
@@ -23,7 +23,7 @@
   ],
   "main": "tasks/grunt-parseunicode",
   "engines": {
-    "node": "*"
+    "node": ">=0.8.0"
   },
   "scripts": {
     "test": "grunt test"
@@ -32,7 +32,8 @@
     "iconv-lite": "0.2.6"
   },
   "devDependencies": {
-    "grunt": "~0.3.17"
+    "grunt": "~0.4.0",
+    "iconv-lite": "~0.2.6"
   },
   "keywords": [
     "gruntplugin"
