@@ -3,9 +3,9 @@
 parse js css to unicode
 
 ## Getting Started
-Install this grunt plugin next to your project's [grunt.js gruntfile][getting_started] with: `npm install grunt-parseunicode`
+Install this grunt plugin next to your project's Gruntfile.js with: `npm install grunt-parseunicode`
 
-Then add this line to your project's `grunt.js` gruntfile:
+Then add this line to your project's `Gruntfile.js` gruntfile:
 
 ```javascript
 grunt.loadNpmTasks('grunt-parseunicode');
@@ -32,7 +32,7 @@ Configure Example:
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt][grunt].
 
 ## Release History
-_(Nothing yet)_
+ * 2012-10-17 - v0.1.6 - Upgrade support grunt ~0.4.0 
 
 ## License
 Copyright (c) 2012 [lemonlwz](http://www.coolicer.com/)
