@@ -32,7 +32,7 @@ Configure Example:
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt][grunt].
 
 ## Release History
- * 2013-04-19 - v0.1.8 - Upgrade support grunt 0.4.1 & no dependencies iconv-lite
+ * 2013-04-19 - v0.1.9 - Upgrade support grunt 0.4.1
  * 2012-10-17 - v0.1.6 - Upgrade support grunt ~0.4.0 
 
 ## License
