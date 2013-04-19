@@ -56,12 +56,13 @@ module.exports = function(grunt) {
     charset = this.data.options.charset || 'utf8';
     type = this.data.options.type !== 'js' ? false : true ;
 
-    grunt.file.expandFiles(this.file.src).forEach(function(filepath) {
-
-    console.log(filepath);
-      str = iconv.decode(fs.readFileSync(filepath, ''), charset);
-      buffer = iconv.encode(escapeIt(str, type), charset);
-      fs.writeFileSync(filepath, buffer, charset);
+    this.files.forEach(function(files){
+      files.src.forEach(function(file){
+        var buffer = grunt.file.read(file, {
+          encoding: charset
+        });
+        fs.writeFileSync(file, escapeIt(buffer, type));
+      });
     });
 
   });
